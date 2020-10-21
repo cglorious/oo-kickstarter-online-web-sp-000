@@ -12,8 +12,8 @@ class Backer
     project_instance.add_backer(self) unless project_instance.backers.include?(self)
   end
 
-  def advanced(project_instance)
-    @backed_projects << project_instance
-  end
+  #def advanced(project_instance)
+  #  @backed_projects << project_instance
+  #end
 
 end
